@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The sincere penitent A dialogue between philotheus and philocosmus. By a young gentleman.</title>
+            <author>Young gentleman.</author>
+         </titleStmt>
+         <extent>Approx. 30KB of XML-encoded text transcribed from 19 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A60279</idno><idno type="EEBO-CITATION">99830630</idno>
+  <idno type="VID">35083</idno>
+  <idno type="EEBO-PROQUEST">2240893013</idno>
+  
+            <idno type="STC">Wing S3851A</idno>
+            <idno type="STC">ESTC R219105</idno>
+            <idno type="PROQUEST">99830630</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-99830630e"/>
+            <note>(EEBO-TCP ; phase 2, no. A60279)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 35083)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2078:16)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The sincere penitent A dialogue between philotheus and philocosmus. By a young gentleman.</title>
+                  <author>Young gentleman.</author>
+               </titleStmt>
+               <extent>[6], 26 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed at Dublin, and reprinted at London, and sold by J. Nutt, near Stationers Hall,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>1699.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2014-06 </date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2014-07 </date>
+            <label>Anne Simpson </label>Sampled and proofread </change>
+         <change>
+            <date>2014-07 </date>
+            <label>Anne Simpson</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:35083:1"/>
+            <pb facs="tcp:35083:1"/>
+            <p>THE Sincere Penitent: A DIALOGUE Between <hi>Philotheus</hi> and <hi>Philocosmus.</hi>
+            </p>
+            <q>O mihi praeteritos referet si Jupiter annos!</q>
+            <p>By a young Gentleman.</p>
+            <p>Printed at <hi>Dublin,</hi> and Reprinted at <hi>London,</hi> and sold by <hi>J. Nutt,</hi> near <hi>Stationers Hall,</hi> 1699.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:35083:2"/>
+            <pb facs="tcp:35083:2"/>
+            <head>TO THE READER.</head>
+            <p>
+               <hi>THE following Treatise was the real Result of my Soul, and my sincere Thoughts digested into Method; I chose the way of Dialogue, as being the most pleasing to the Reader, for men should entic'd to their Duty by all lawful means: I have Publish'd it on no other score but hoping it may do some
+<pb facs="tcp:35083:3"/> Good, and if you read it as Se<g ref="char:EOLhyphen"/>riously as I Wrote it, I hope I shall not fail of my Wish'd Ex<g ref="char:EOLhyphen"/>pectations: For if the World reaps any Benefit by my poor Endeavours, the whole aim I propos'd is answer'd to your</hi>
+            </p>
+            <closer>
+               <signed>real Friend, and Well-wisher,</signed>
+            </closer>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:35083:3"/>
+            <head>To the Right Honourable <hi>WILLIAM</hi> Lord Vis<g ref="char:EOLhyphen"/>count <hi>MOƲNTJOY.</hi>
+            </head>
+            <opener>
+               <salute>My Lord,</salute>
+            </opener>
+            <p>
+               <hi>MY Obligations to Your Lord<g ref="char:EOLhyphen"/>ship are many, and great, and this Poor Return is all I have to offer: Gratitude obliges me to acknowledge my Debts, that it may appear I have (at least) the Will, if it should ever be in my Power to make any Restitution. In the mean time this is the way those who appear in Print take of Paying their Debts, and I my Lord, being as great a Bankrupt as others, follow their Method. The following Papers which I Dedicate to Your Lordships Protection would be
+<pb facs="tcp:35083:4"/> rather an Affront, than an Acknow<g ref="char:EOLhyphen"/>ledgement, were not Your Lordship's real Value for Religion sufficiently known to all: Your Family has been Famous, tho' Unfortunate in the Bra<g ref="char:EOLhyphen"/>vest of Quarrels, where your Religion, your Laws and Country stood in need of Your Assistance. Go on (Great Sir) and may Your Glories and Honours en<g ref="char:EOLhyphen"/>crease till I should wish the Growing Flood to ebb, which shall not be till the sum of Your Bliss and Glory be compleat in an Eternal and Happy World. The consummation of which, shall ever be the Prayer of</hi>
+            </p>
+            <closer>
+               <salute>My Lord,</salute>
+               <signed>your Lordship's Most obliged Humble Servant, Philotheus.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:35083:4"/>
+            <head>THE Sincere Penitent.</head>
+            <sp>
+               <speaker>Philocosmus.</speaker>
+               <p>WELL met my dear <hi>Philotheus:</hi> It is al<g ref="char:EOLhyphen"/>most an Age since last I saw you, and now you're so strangely alter'd, that at first, I scarcely knew you: What's the occasion of this change? where's all that Gayety and Mirth which us'd to dwell upon your pleasant Brow? Where's the alluring Mein? The taking Smiles? Where the Fine Dress? And all the other Winning Arts with which you gain'd the Ladies good esteem? Sure some strange misfor<g ref="char:EOLhyphen"/>tune has befallen you, which has occa<g ref="char:EOLhyphen"/>sion'd this unexpected metamorphosis.</p>
+            </sp>
+            <sp>
+               <speaker>Philotheus.</speaker>
+               <p>No <hi>Philocosme,</hi> The best, the greatest, chiefest Happiness, Heaven can bestow, or man enjoy, is the reason of what you call a metamorphosis.</p>
+            </sp>
+            <sp>
+               <pb n="2" facs="tcp:35083:5"/>
+               <speaker>Philocos.</speaker>
+               <p>And is it thus you thank kind Heaven for the Blessing; For shame, cast off those melancholly looks, assume your wonted Jollity, and let us to the Tavern, and there over a chearful Bottle give the Gods thanks for their Favours.</p>
+            </sp>
+            <sp>
+               <speaker>Philothe.</speaker>
+               <p>Softly <hi>Philocosme,</hi> and I'le shew you, how much you are mistaken in both points; for neither am I melancholly, nor is a Tavern, and a Bottle fit returns to Heaven for his mercies: What, because I am not mad, must I therefore be melan<g ref="char:EOLhyphen"/>cholly? Will you allow no <hi>medium?</hi> Be<g ref="char:EOLhyphen"/>cause my Dress is not true Beaux, my Gate affected, my Talk and Laughter loud, and extravagant, must I therefore be melancholly? You're very Hetrodox in your Opinion, for it is the Sober, Vertu<g ref="char:EOLhyphen"/>ous Man, who is the truly chearful, and merry man, his happiness is real, his Joys are perfect, whilst the Airy, Lewd, De<g ref="char:EOLhyphen"/>bauchee (whom the World calls the man of Wit, and Pleasures) who knows how to use the Blessings of this Life, wilfully stu<g ref="char:EOLhyphen"/>dies how to make himself uncapable of re<g ref="char:EOLhyphen"/>lishing any Happiness. He makes that
+<pb n="3" facs="tcp:35083:5"/> very punishment which the Hollanders in<g ref="char:EOLhyphen"/>flict on Criminals, and is call'd the Dutch Beverage, his chief delight, thô cropsick next morning he curses the last night's de<g ref="char:EOLhyphen"/>bauch, damns the Company who Revel'd with him, and for a day or two con<g ref="char:EOLhyphen"/>demns himself to Penitential Small-Beer. And is this the way to live happily? I would sooner be damn'd to linger out my wretched life, chain'd to an Oar on board a Spanish Galley.</p>
+            </sp>
+            <sp>
+               <speaker>Philocos.</speaker>
+               <p>And yet <hi>Philotheus,</hi> this was the very life you led for some years, nay you were one of the Topping Extrava<g ref="char:EOLhyphen"/>gants, and strove with eagerness to Out<g ref="char:EOLhyphen"/>do your lazy Comrades. You were the Chiefest Champion for it, curs'd all Mo<g ref="char:EOLhyphen"/>rals, and the Plodding Fools who taught them first, call'd all a Trick, a meer De<g ref="char:EOLhyphen"/>sign of old, envious Dotards, who being by Age and Impotence depriv'd of the possibility of enjoyment, would needs impose those merciless Curbs on the High<g ref="char:EOLhyphen"/>mettled Youth.</p>
+            </sp>
+            <sp>
+               <speaker>Philoth.</speaker>
+               <p>Oh! 'tis too true.</p>
+            </sp>
+            <sp>
+               <speaker>Philocos.</speaker>
+               <p>Why that Sigh?</p>
+            </sp>
+            <sp>
+               <pb n="4" facs="tcp:35083:6"/>
+               <speaker>Philothe.</speaker>
+               <p>It is a tribute justly paid to the remembrance of my former Follies. Bu<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Oh! my friend, could I recall those mi<g ref="char:EOLhyphen"/>spent hours, and live those days again nor Thought, nor Word, nor Deed should e're offend my Great and Merciful Crea<g ref="char:EOLhyphen"/>tor. But they are fled, fled far beyond my power to reach; but yet sincere Con<g ref="char:EOLhyphen"/>trition, and Heav'ns mercy will atton<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> for all.</p>
+            </sp>
+            <sp>
+               <speaker>Philocos.</speaker>
+               <p>You're melancholly mad, and I will bid you farewel; I shall (it may be) in a day or two see you peeping thr<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> a Gate in <hi>Bethlehem.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Philothe.</speaker>
+               <p>Stay: I will not let you go I love my Friend too well, than tame<gap reason="illegible: right margin cropped or obscured" resp="#murp" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> suffer him to run blindly on his Rui<gap reason="illegible: right margin cropped or obscured" resp="#murp" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> thus. You shall hear me, and if y<gap reason="illegible: right margin cropped or obscured" resp="#murp" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> will but hear me impartially, laying a si<gap reason="illegible: right margin cropped or obscured" resp="#murp" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> all prejudice, I'me confident I'le make Convert of you. 'Tis a gross Error <hi>Phi<gap reason="illegible: right margin cropped or obscured" resp="#murp" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>
+                     <g ref="char:EOLunhyphen"/>cosme</hi> to call the sober part of Manki<gap reason="illegible: right margin cropped or obscured" resp="#murp" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Hyppocondriacks, for they are so f<gap reason="illegible: right margin cropped or obscured" resp="#murp" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> from it, that they follow the Apost<gap reason="illegible: right margin cropped or obscured" resp="#murp" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Rule, and serve their God with Chearf<gap reason="illegible: right margin cropped or obscured" resp="#murp" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>ness,
+<pb n="5" facs="tcp:35083:6"/> they thankfully enjoy the Blessings of this World, and are not more glad when they receive the Gifts, than pleas'd when gratefully they return Heaven their Heartiest Praises for them: They delight in doing good, which is their duty, and find themselves as quiet and as easy after the performance, as a Bankrupt who has been a long while tormented how to pay his Debts, is pleased when he at last compounds them. They enjoy a happy and a silent peace within their quiet brests, verifying that of the Prophet: <hi>Her ways are ways of pleasantness; and her paths are peace.</hi> No rude, and loud all arms of a clamorous and troublesome Con<g ref="char:EOLhyphen"/>science disturb their rest, or rack their Souls. In the morning they rise with a sedate and quiet mind, their bodies and their Souls keeping a blest Harmony, are both alike in Heavenly temper. The Sober man is free from sad Reflections, how he spent the Yesterday; nor is he troubled tacitely to question himself: Have I any Quarrel on my hands? Did I fall, out with any one last night? And in
+<pb n="6" facs="tcp:35083:7"/>
+                  <hi>punctilio,</hi> am to Fight this morning? And when he cannot recollect himself, (the Fumes of the Entoxicating Wine having hindred the exercise of his Memory) he's forc'd to ask his Foot-man Questions: <hi>Tom,</hi> How parted we last night? Who was there all in Company? Had we no Words, <hi>&amp;c.</hi> Now, for Heavens sake, granting there were no such thing as Religion, or a future World, Is not this a most Unhappy Life? A base conde<g ref="char:EOLhyphen"/>scension to take your Servant's Word, and trust your very Darling Honour in your Foot-man's hands. Such a man<g ref="char:EOLhyphen"/>ner of life Un-mans men, Debases those of the highest Quality, to the meanest and vilest Abjects. A Heathen could say <hi>Nobilitas sola est atque unica Virtus.</hi> And shall a Christian, who has the hopes and prospect of a Heaven hereafter, added as a Reward for his living well, shall he be out-strip'd by a Heathen, in the Race of Vertue? I believe, my Friend, you durst (were your Country, King, or Li<g ref="char:EOLhyphen"/>berties at Stake) rush boldly midst the Thundring War, Fight Valiantly under
+<pb n="7" facs="tcp:35083:7"/> your Prince's Banner for the preservation of those Dear Pledges, and by your Da<g ref="char:EOLhyphen"/>ring, shun the hated name of Coward; Why will you then prove less Valiant un<g ref="char:EOLhyphen"/>der a more Glorious Banner? Why not as brave a Soldier in a Holy War, where the Prizes are much more Valuable? Eternal Bliss, is the Conquering Heroe's great Reward, but Everlasting Wo the just Pu<g ref="char:EOLhyphen"/>nishment of the Coward and Traytor.</p>
+               <p>Those I have mention'd are some few of the many Inconveniences which at<g ref="char:EOLhyphen"/>tend the Dear Delights of keeping (what you call) good Company. But since my Design is only to awaken you; I shall no longer insist on this Head, believing I have already painted that Vice in its Lively colours: I desire now to know if still you think a Tavern and a Bottle, fit Returns to Indulgent Heaven for the dis<g ref="char:EOLhyphen"/>pensation of his Mercies?</p>
+            </sp>
+            <sp>
+               <speaker>Philocos.</speaker>
+               <p>No: my <hi>Philotheus</hi> thou has <gap reason="illegible: left margin cropped or obscured" resp="#murp" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>wakened me, thou hast dealt with me <gap reason="illegible: left margin cropped or obscured" resp="#murp" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>s a Skilful Surgeon do's with a Timerous
+<pb n="8" facs="tcp:35083:8"/> Patient; with wary caution you have search'd my Wound, and heal'd it with<g ref="char:EOLhyphen"/>out hurting me: You took not those vio<g ref="char:EOLhyphen"/>lent courses, which instead of Reforming, harden men the more. But I had almost forgot, Pray what's that mighty Happi<g ref="char:EOLhyphen"/>ness you have so lately met with? Is it some Rich Relation newly dead, and left you a plentiful Estate?</p>
+            </sp>
+            <sp>
+               <speaker>Philothe.</speaker>
+               <p>No: But my Sins are dead, and left my Soul in peace. A sense of my past Follies hath awaken'd me, and a sin<g ref="char:EOLhyphen"/>cere Resolution for the future to live a sober and a vertuous life, a stedfast and I hope a lasting Repentance, is the Happi<g ref="char:EOLhyphen"/>ness I have receiv'd, and what I reckon the greatest Blessing could have befall'n me.</p>
+            </sp>
+            <sp>
+               <speaker>Philocos.</speaker>
+               <p>Tell me, <hi>Philotheus,</hi> what it was that rous'd you, and how this change was wrought?</p>
+            </sp>
+            <sp>
+               <speaker>Philothe.</speaker>
+               <p>Frequent, and Wonderful De<g ref="char:EOLhyphen"/>liverances from Eminent Dangers, star<g ref="char:EOLunhyphen"/>tled
+<pb n="9" facs="tcp:35083:8"/> me at first, which shockt my Reso<g ref="char:EOLhyphen"/>lution of pursuing the Allurements of this World, and made me consider what I ow'd to God, and look upon each Mer<g ref="char:EOLhyphen"/>cy, as a Call to mend my life.</p>
+            </sp>
+            <sp>
+               <speaker>Philocos.</speaker>
+               <p>Well, you have indeed obtain<g ref="char:EOLhyphen"/>ed your Design upon me, as to that of Drinking, I am, and own my self your Convert. But what say you Friend? Will not you allow me a little innocent freedom with a Pretty Girl? Or grant at least, that the Sin is Venial?</p>
+            </sp>
+            <sp>
+               <speaker>Philothe.</speaker>
+               <p>All Innocent Freedoms are lawful, but I fear by your mentioning a Venial Sin, you mean Fornication, if so avoid it as you would the Plague, or any worse Disease; there's Deadly Poyson in't. You must not be almost, but altogether a Christian: Men may sooth themselves with Fancies, but sure no Sin without sincere Repentance, will be pardon'd, and I do not know any one Crime against which God's Vengeance is more, and fre<g ref="char:EOLhyphen"/>quenter Denounced than this: The Scrip<g ref="char:EOLhyphen"/>tures
+<pb n="10" facs="tcp:35083:9"/> are full of Woes against the Adul<g ref="char:EOLhyphen"/>terers and Whoremongers; and foreseeing that this Sin would be the Chiefest Allure<g ref="char:EOLhyphen"/>ment with which the Devil can tempt man, has taken all necessary care to fore<g ref="char:EOLhyphen"/>warn and arm us against it: <hi>The Whore<g ref="char:EOLhyphen"/>mongers and Adulterers God will judge,</hi> and again, <hi>They shall not enter into the Kingdom of Heaven:</hi> No Unclean thing shall get admittance into the Coelestial Habitations, and can any thing be more filthy, or un<g ref="char:EOLhyphen"/>clean than a Whoremonger? And besides the Terrible Judgements denounc'd in the Scriptures against those who commit the Sin of Uncleaness, it has seem'd good to the Divine Wisdom and Justice to in<g ref="char:EOLhyphen"/>flict a very Severe and Dreadful Punish<g ref="char:EOLhyphen"/>ment even in this Life, which tho' it do's not always light upon the Guilty break<g ref="char:EOLhyphen"/>er of the Seventh Command, yet it com<g ref="char:EOLhyphen"/>monly overtakes the Hardned Sinner. How many Wretched Examples have we seen of miserable people who infected with the Veneral Plague, have lingred out a miserable Life here in Dismal Agonies, and Fearful Torments, and without the
+<pb n="11" facs="tcp:35083:9"/> particular mercy of an Indulgent Creator, and the Earnest mediation of a Powerful Advocate, must also Howl Eternally in another World for the Satisfaction of Ju<g ref="char:EOLhyphen"/>stice and Expiation of the Sin. What Mischiefs has Lust been the Author and Contriver of? How many Murthers have been committed on this score? How ma<g ref="char:EOLhyphen"/>ny States and Kingdoms entirely Ruin'd by nothing but Unbridled Lust? From hence has sprung Incests, Parracide and a Train of Woes, which are the constant Attenders of that Sin. The Silly <hi>Indians</hi> who Barter Gold and Jewels for Glass and Beads, make much a better Bargain, than he who forfeits Eternity for a Moment's Pleasure. Sure nothing but the greatest Stupidity imaginable could be guilty of so gross a Folly? <hi>What shall a man profit, if he gain the whole world, and lose his own soul?</hi> It is strange, that men that are so wise and crafty in their dealings here, so Politick in the Trifling things of this Transitory World, should be such Fools in the great Business of their Souls. It's enough to break a true Christians heart, to see with
+<pb n="12" facs="tcp:35083:10"/> how much Impudence this Sin is acted he's not reckon'd a true Gentleman who has not been Flux'd once, at least, and its a requisite point of Breeding to un<g ref="char:EOLhyphen"/>derstand how to Cure Veneral Distempers, the Gentile way of Speaking is thro' the Nose, and our Beauxs brag more of those Wounds they basely got in <hi>Venus</hi> Wars, than if they had Nobly got them in the Field of Honour, for their Country's sake. Pimping and Pandarism are the ways to the best Preferments, where Vertue ought to lead the way: But it is as <hi>Juvena<gap reason="illegible" resp="#murp" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> says,</p>
+               <q>
+                  <l>
+                     <hi>Aude aliquid brevibus Gyaris, vel carcere dignum,</hi>
+                  </l>
+                  <l>
+                     <hi>Si vis esse aliquis, probitas laudatur, &amp; alget<gap reason="illegible" resp="#murp" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi>
+                  </l>
+               </q>
+               <p>I must own indeed that this Vice is the greatest Temptation the Devil has in his power, the sharpest Weapon he can use against us, therefore we ought to b<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the more cautions of our selves, and striv<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> more earnestly against it, by the Powe<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> of the Spirit Subdue the Lusts of the Flesh
+<pb n="13" facs="tcp:35083:10"/> behave our selves like Valiant Soldiers in this our Warfare with the World, and like the Noble Christian Youth, who in the Decian Persecution, by the Witty Malice of his Pagan Enemies, was tyed with Cords of Silk upon a Bed of Down, plac'd in a curious Garden, where no Alluring Prospects were wanting, which could heighten, or entice Desires, then a Fair Strumpet trick'd up with all her Wanton Arts, came to draw the Vigorous Youth unto her loose Embraces; but he bravely resisted her Attempts, till at the last, finding by her Arts his Blood began to warm, and his Flesh to threa<g ref="char:EOLhyphen"/>ten a Rebellion, he resolutely bit off his Tongue, and spate it in the Harlot's face: Choosing to go into Paradice wanting a Tongue, than having one to be cast in<g ref="char:EOLhyphen"/>to Hell-Fire. The Chastity of those primi<g ref="char:EOLhyphen"/>tive Times of Christianity, is very Re<g ref="char:EOLhyphen"/>markable: Those Women who were for their Religion condemn'd to be Prostitu<g ref="char:EOLhyphen"/>ted, beg'd not other Favour of their cruel Judges, but that their Vertue being safe, they might be expos'd to the Fury of Ra<g ref="char:EOLhyphen"/>venous Lyons.</p>
+            </sp>
+            <sp>
+               <pb n="14" facs="tcp:35083:11"/>
+               <speaker>Philocos.</speaker>
+               <p>They were brave Heroiens, I fear there are few of that soft Sex of this Age, would follow their great Exam<g ref="char:EOLhyphen"/>ple.</p>
+            </sp>
+            <sp>
+               <speaker>Philothe.</speaker>
+               <p>Their Shame's the greater; Yet there are some brave Christian La<g ref="char:EOLhyphen"/>dies still, who would joyfully run into the Cold Arms of Death (let him appear in all his Dreadful Forms) rather than yield to the Foul Embraces of an Unlaw<g ref="char:EOLhyphen"/>ful Love. The number of these Vertu<g ref="char:EOLhyphen"/>ous Women would increase, if all that Sex did but consider the Dangers and mi<g ref="char:EOLhyphen"/>reries which attend the crime, but most of them [as the Sex is rash and inconsiderate in all they do] are hurried away by the first impulse of their Inclinations; and without ever thinking, obey the whis<g ref="char:EOLhyphen"/>perings of the Tempter, never call up their Reason, or their Vertue to their aid, but yield themselves an easy Prey to Sin and Shame. But the Men who Tempt them, have the greatest Guilt: they do the Devil's Drudgery for him, and use all means and ways their Wit can invent, or their Lusts suggest to them; they spare
+<pb n="15" facs="tcp:35083:11"/> no Oaths, nor Vows, but Invoke Hea<g ref="char:EOLhyphen"/>ven confidently to be a Witness to their Lewdness. Perjury follows, for a Lover looks upon it to be a base thing, if he should keep his Oath. Nay, this is so ve<g ref="char:EOLhyphen"/>ry common, that the use is crept into a Proverb, and when you would name a Trifle, you bring in the <hi>Smile: As frail as Lovers Vows.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Philocos.</speaker>
+               <p>I wonder that young-women do not take warning by the Examples of others, and that the Noted Falshood of Mankind do's not make them altogether Incredulous.</p>
+            </sp>
+            <sp>
+               <speaker>Philothe.</speaker>
+               <p>There are a thousand little things happen in a Love Intreigue, which <gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>annot be exprest, which makes the Con<g ref="char:EOLhyphen"/>quest easier; but some of the chief Rea<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ons of the fond Credulity of Women, I <gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ake to be these. First their Pride (of which, every She has her share) which <gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>akes them think better of themselves, <gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>han others▪ and believe their Charms are <gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ore prevailing, and lasting, and if they
+<pb n="16" facs="tcp:35083:12"/> have any Instance of a Forsaken <hi>Phillis</hi> in their mind, they'l urge, it may be, to their Amorous Gallant, and tell him with a Languishing Sigh, <hi>After enjoyment you will grow cold and careless, and forsake me so.</hi> The Lover then has recourse to his Oaths: which Prodigally he pours forth, and wishes all the Horrible Execrations Hell's Malice can invent, may fall upon his Perjur'd Head, if e're he prove Uncon<g ref="char:EOLhyphen"/>constant, or Unkind: A glittering pre<g ref="char:EOLhyphen"/>sent is added as confirmation to his Vows; the Simple Girl believes all, takes him for a Man of Honour, or at least so far thinks him a Christian, that he would not venture Damnation by breaking all those Oaths: But she never considers that he who breaks one Command, will keep none; he that Whores, will Swear, nay Forswear too; and if once the Devil makes you fond of one beloved Sin, the breach of all God's Laws will quickly fol<g ref="char:EOLhyphen"/>low, the first Unfortunate Disobedience; Thus the poor Girl believes, consents, and thus at last is ruin'd.</p>
+            </sp>
+            <sp>
+               <pb n="17" facs="tcp:35083:12"/>
+               <speaker>Philocos.</speaker>
+               <p>I know not what to say, Na<g ref="char:EOLhyphen"/>ture and Youth plead strongly for it. It is none of those Sins which grow upon us by custom and habit, but rather an innate Propensity which encreases with our Years, and seems to be as much requir'd by Nature, as Eating or Drinking.</p>
+            </sp>
+            <sp>
+               <speaker>Philothe.</speaker>
+               <p>Oh Friend, I find it is your Darling Sin, and I must root it from your Brest, or you are lost. Those are stale Arguments you use, to wheedle your self into Destruction, and besides your Posi<g ref="char:EOLhyphen"/>tion is wrong, for no Vice encreases more by custom and habit than this dos. You seem tacitely to imply, that it is a Com<g ref="char:EOLhyphen"/>mand which cannot be kept: Sure you won't make a Tyrant of your God? And think that the Infinite Goodness, whose beloved Attribute is Mercy, should im<g ref="char:EOLhyphen"/>pose any Laws impossible to be kept up<g ref="char:EOLhyphen"/>on Mankind. You never strove against the Sin, but on the contrary, have em<g ref="char:EOLhyphen"/>ploy'd the Strength of your Fancy to heighten your supposed Bliss; and when like Daring <hi>Ixion,</hi> you embrac'd a Cloud
+<pb n="18" facs="tcp:35083:13"/> have thought you had your Goddess i<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> your arms.</p>
+               <p>Belive me what I say, and try my Re<g ref="char:EOLhyphen"/>cepe, you'l gain a happy and a total Con<g ref="char:EOLhyphen"/>quest; it is no Frozen Hermite who speaks to you, warm, youthful Blood beats live<g ref="char:EOLhyphen"/>ly in my full swoln Veins; you cannot say the Sin left me, before I threw it off: Consider seriously with your self, and du<g ref="char:EOLhyphen"/>ly weigh what certain Dangers you incu<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> and all for a Trifle; by just Reflections on the Folly, bring your self into a loath<g ref="char:EOLhyphen"/>ing of the Vice. Positively believe, that unavoidable Damnation does attend, and then your Reason will soon determine you, how vast the disproportion is, between fleeting and imaginary Pleasures, and end<g ref="char:EOLhyphen"/>less and unspeakable Joys. Besides it is the most unaccountable piece of Avarice, to covet the whole Sex: the Law of God and Man allows every man one, and if that man will be but contented (nay, rather believe himself so, for happy he really is.) The Mighty Ottoman is not so Blest, with all his Numerous Train of
+<pb n="19" facs="tcp:35083:13"/> Beauties, in his Great <hi>Seraglio.</hi> There True Love, and a Pretty Off-spring Bless the Obedient Husband; each rolling day adds new Comforts to his Happy Life, and having enough, he covets no more. But you perhaps will say, What Generous Soul would be confin'd to the Dull Clog of Matrimony? Subject to the constant Impertinencies of a Wife: And yet you submit to the Illegal Tyranny of a Strum<g ref="char:EOLhyphen"/>pet, like a man of a Factious Temper, won't obey your Lawful Prince, but tamely be Impos'd upon by an Usurper.</p>
+            </sp>
+            <sp>
+               <speaker>Philocos.</speaker>
+               <p>I yield, and own, I'm to my satisfaction vanquisht, and yet am Con<g ref="char:EOLhyphen"/>queror, tho' overcome.</p>
+            </sp>
+            <sp>
+               <speaker>Philothe.</speaker>
+               <p>There is one Vice more which is in great Repute with the Gentlemen of the World: A Vice that is in it self so very Ridiculous, that nothing but its be<g ref="char:EOLhyphen"/>ing forbid, could e're have made the World to find it out, and as the Apostle says, <hi>He had never known Sin, but by the Law:</hi> So it may be asserted, Swearing
+<pb n="20" facs="tcp:35083:14"/> had never been in such Esteem, had not there been a Prohibition of it.</p>
+               <q>Gens Humana ruit per vetitum nefas.</q>
+               <p>This is a Sin which has neither Profi<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> nor Pleasure in it; in all other Crimes the Devil makes use of some Bait to cove<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> his hook, but here he uses man as an Ang<g ref="char:EOLhyphen"/>ler does Gudgeons, catch them with a na<g ref="char:EOLunhyphen"/>ked Hook, knowing their Folly, he think<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> them not worth the Cost and Trouble o<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> a Bait. Certainly none but Ideots an<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Naturals (one would think) could b<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> guilty of this Vice, and yet we see me<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> in other things of tollerable parts, wh<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> have good Education strangely besotte<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> with this Sin, and can hardly speak bu<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> they must lard their Sentences, and ta<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> their Discourses with an Oath or two. shall not longer dwell upon a Subject<gap reason="illegible: right margin cropped or obscured" resp="#murp" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> unworthy, nor trouble my self any farth<gap reason="illegible: right margin cropped or obscured" resp="#murp" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> to expose a Vice, which has no Plea for self: But shall next tell you, I cou'd wi<gap reason="illegible: right margin cropped or obscured" resp="#murp" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> that Gaming were either quiet left off, at least limitted; For tho' I cannot say
+<pb n="21" facs="tcp:35083:14"/> is either <hi>malum in se,</hi> or <hi>malum prohibitum,</hi> yet it has frequently very Dismal Conse<g ref="char:EOLhyphen"/>quences; many Estates are Ruin'd, whole Families reduc'd, even to Beggery; seve<g ref="char:EOLhyphen"/>ral Murthers committed on this score, and Gaming always did, and, whilst it's coun<g ref="char:EOLhyphen"/>tenanc'd always will, maintain a parcel of Sharping Rooks, who if depriv'd of this shelter, might be Serviceable to the Publick.</p>
+               <p>There are other Vices which not less than these are mention'd, deserve a severe Censure, but they are Sins of such a Na<g ref="char:EOLhyphen"/>ture, that our Gentry do not only shun them, but are much ashamed, if in an Age, a man who has had a Liberal E<g ref="char:EOLhyphen"/>ducation, should be found a Delinquent; such are Theft, Lying, Back-biting, and the like. And besides, none pretend to Justify these Crimes; they have no Ad<g ref="char:EOLhyphen"/>vocates, but are allow'd by all to be Sins. Since then, the Men of Quality and Rank blush at these Crimes, In the Name of God, let them consider, and be as much ashamed of their other Vices, for they
+<pb n="22" facs="tcp:35083:15"/> are neer ally'd, and either the one, or the other Rank of them, makes them alike the Devils Slaves; and if they drag his Chains, it is no matter how they put them on.</p>
+            </sp>
+            <sp>
+               <speaker>Philocos.</speaker>
+               <p>Enough, my Dear Deliverer; I am convinced, and will reform, I will henceforth shake off those Cursed Fetters which have Wranckled my poor Soul: Thou hast made me sensible of a Burthen which sits heavy on me now, thô I be<g ref="char:EOLhyphen"/>fore felt not its dangerous Weight.</p>
+            </sp>
+            <sp>
+               <speaker>Philothe.</speaker>
+               <p>You must get rid of it my Friend, and speedily, least the Load de<g ref="char:EOLhyphen"/>press the mounting of your Sublimer Thoughts.</p>
+            </sp>
+            <sp>
+               <speaker>Philocos.</speaker>
+               <p>I will; if Prayers and Tears Offended Heaven can move, if a sincere Contrition can atone and expiate my Crimes.</p>
+            </sp>
+            <sp>
+               <speaker>Philothe.</speaker>
+               <p>Heaven is all Goodness, and never yet shut up his Bowels of Compas<g ref="char:EOLhyphen"/>sion
+<pb n="23" facs="tcp:35083:15"/> to the Truly Penitent: Read the Scriptures carefully, where you will find all the Comfort you can hope for. No Father e're us'd his First-born with more Tenderness, than Heaven does the return<g ref="char:EOLhyphen"/>ing Sinner. Christ invites him to come unto him, with all the Endearing Expres<g ref="char:EOLhyphen"/>sions a Heavenly Love can use: Nay, tells you, that all the Heavenly Choire rejoice at a Sinner's Conversion; and the Holy Angels are Interess'd in your Happy Change. And as Despair is the most ac<g ref="char:EOLhyphen"/>cursed state which any Miserable Wretch can fall into, so the Sacred Writ has ta<g ref="char:EOLhyphen"/>ken a peculiar tender care, that man should avoid that dismal condition: And has not only by Exhortations invited the Sin<g ref="char:EOLhyphen"/>ner to Repent, that he may be Forgiven, but has also given us several Instances of Notorious Sinners who have by their Repentance become very Dear to God. It was the Penitence of <hi>David</hi> which ob<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ain'd him the Holy Writ's Testimony, that he was <hi>a Man after God's own heart. Mary Magdalen,</hi> from a Vile Sinner, became a happy Saint. And Persecuting <hi>Saul,</hi> a
+<pb n="24" facs="tcp:35083:16"/> Preaching <hi>Paul;</hi> and suffer'd a Glorious Martyrdom, as a Witness for the Truth of that very Faith which he before had so Zealously Persecuted. Our Blessed Savi<g ref="char:EOLhyphen"/>our Pray'd for his Persecutors; which Glorious Example, his Martyrs afterwards followed, saying, <hi>O Lord, lay not this Sin to their charge.</hi> And doubtless, as many o<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> them as repented, were forgiven. Nay if <hi>Judas</hi> himself, who betrayed his Lord and Master, had received the Grace o<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Repentance, he would have found also th<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> benefit of a Pardon: If he had acted lik<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> St. <hi>Peter</hi> [who after he had denied hi<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Master] went immediately out and wept The mercy of Indulgent Heaven to th<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Sincerely Penitent is a Theme of that vas<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> extent, that it would take a longer tim<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> than our present Opportunity can admi<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> of, to handle every Particular: And presume I have already said enough, t<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> make you hope for Pardon, and believ<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> that your sincere Contrition will mee<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> with Heaven's assisting Grace to forwar<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> you in the great Work of your Salv<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>tion.</p>
+            </sp>
+            <sp>
+               <pb n="25" facs="tcp:35083:16"/>
+               <speaker>Philocos.</speaker>
+               <p>Your Words are full of Com<g ref="char:EOLhyphen"/>fort; you have brought back my Wan<g ref="char:EOLhyphen"/>dring Reason to my aid; you have snatcht me from the gaping Jaws of a near and threatning Destruction, and plac'd me on a Hill of Safety, furnishing me with Wea<g ref="char:EOLhyphen"/>pons fit for my defence.</p>
+            </sp>
+            <sp>
+               <speaker>Philothe.</speaker>
+               <p>Make use of them, and you shall overcome: Your Foe is no Brave E<g ref="char:EOLhyphen"/>nemy; if you press briskly forward, he soon will flee before your bold Attempts; for he only pursues the Coward and Da<g ref="char:EOLhyphen"/>stard: This is a Warfare in which every Resolute man is sure of Victory, and of the Glorious Rewards which attend his Con<g ref="char:EOLhyphen"/>quest.</p>
+               <p>Speak; Are you resolv'd?</p>
+            </sp>
+            <sp>
+               <speaker>Philocos.</speaker>
+               <p>I am: But e're I enter the Lists, as a Soldier of Christ's, I'le lay down the Accoutrements of my former General. Now therefore farewel: A last<g ref="char:EOLhyphen"/>ing farewel to the World, and all the empty Pleasures with which so long I was enslav'd. Methinks I now am free, like
+<pb n="26" facs="tcp:35083:17"/> some poor Wretch who long has led a sla<g ref="char:EOLunhyphen"/>vish Life in <hi>Tunis,</hi> or <hi>Algiers,</hi> and when a bout to be Redeemed, Triumphantly h<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> shakes his long drag'd Chains, and leap<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> with Transport from the ground.</p>
+            </sp>
+            <sp>
+               <speaker>Philothe.</speaker>
+               <p>Trust me, I rejoyce to see yo<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> man again; before, you only had the Hu<g ref="char:EOLunhyphen"/>man shape, for the distinguishing Sou<gap reason="illegible" resp="#murp" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> was lost.</p>
+            </sp>
+            <sp>
+               <speaker>Philocos.</speaker>
+               <p>It was: But thanks to Hea<g ref="char:EOLunhyphen"/>ven, and thee, 'tis found again.</p>
+               <lg>
+                  <l>Adieu all Vanities, all Lusts adieu:</l>
+                  <l>Heav'n, thou'rt my aim, my only hope's in you</l>
+               </lg>
+            </sp>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:35083:17"/>
+            <pb facs="tcp:35083:18"/>
+            <pb facs="tcp:35083:18"/>
+            <pb facs="tcp:35083:19"/>
+            <pb facs="tcp:35083:19"/>
+         </div>
+      </body>
+   </text>
+</TEI>
